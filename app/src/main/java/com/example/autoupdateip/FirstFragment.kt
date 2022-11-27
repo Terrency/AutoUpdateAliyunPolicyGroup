@@ -27,6 +27,7 @@ class FirstFragment : Fragment() {
 
     private var _binding: FragmentFirstBinding? = null
     private var ip: String = ""
+    // FIXME replace this to ur own AccessKey & AccessKeySecret
     private val config = Config().setAccessKeyId("").setAccessKeySecret("").setEndpoint("ecs.cn-hongkong.aliyuncs.com")
     private val client = Client(config)
     private var sharedPreferences: SharedPreferences? = null;
