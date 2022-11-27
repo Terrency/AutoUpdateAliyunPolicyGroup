@@ -1,0 +1,2 @@
+rootProject.name = "AutoUpdateIP"
+include ':app'
